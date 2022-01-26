@@ -1,10 +1,33 @@
-# Getting Started with Create React App
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Prerequisite
+- [Node](https://nodejs.org/en/download/) Installed on system
+- Some prior knowledge with npm or yarn for installing dependencies.
 
-In the project directory, you can run:
+## Steps
+
+1.Open terminal(linux)or CMD(command prompt for Windows) and navigate to the folder you want to keep the Project on your system and run following command to clone the repository.
+
+### `git clone https://github.com/manojspro/react-assignment.git`
+
+
+
+2.The above command will clone the repository in a new folder on system named "react-assignment".
+Navigate inside the Project Dir by running following command:
+
+### `cd react-assignment`
+
+3.We need to install all the dependecies(node packages) now so run following command.
+### `npm install`
+or
+### `yarn install`
+
+Note: for above commands to execute successfully we need stable network connectivity.
+So re run the above steps in case you face any errors during the process.
+
+4.We can run the Project using the following command. 
 
 ### `yarn start`
 
@@ -14,30 +37,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
